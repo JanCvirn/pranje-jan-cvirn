@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranje Jan Cvirn S.P.</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
+
+.hero{
+    background:#0078ff;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero img{
+    width:100%;
+    max-width:800px;
+    border-radius:15px;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:22px;
+}
+
+.vsebina{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h2{
+    color:#0078ff;
+    margin-top:50px;
+}
+
+.storitev{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.gumb{
+    background:#0078ff;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:8px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+.gumb:hover{
+    background:#005fd1;
+}
+
+.galerija{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.galerija img{
+    width:100%;
+    border-radius:10px;
+}
+
+form{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    box-sizing:border-box;
+}
+
+button{
+    background:#0078ff;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#005fd1;
+}
+
+iframe{
+    width:100%;
+    height:350px;
+    border:none;
+    border-radius:10px;
+}
+table{
+    width:100%;
+    background:white;
+    border-collapse:collapse;
+    border-radius:10px;
+    overflow:hidden;
+    margin-top:20px;
+}
+
+th, td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+    text-align:left;
+}
+
+th{
+    background:#0078ff;
+    color:white;
+}nav{
+    background:#005fd1;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+</style>
+
+</head>
+
+<body>
+<nav>
+    <a href="#storitve">Storitve</a>
+    <a href="#cenik">Cenik</a>
+    <a href="#galerija">Galerija</a>
+    <a href="#lokacija">Lokacija</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+<div class="hero">
+
+
+<img src="logo.png" alt="Pranje Jan Cvirn S.P." style="max-width:500px; width:100%;">
+
+<a class="gumb" href="tel:051777170">
+Pokliči zdaj
+</a>
+
+</div>
+
+<div class="vsebina">
+
+<h2>Naše storitve</h2>
+
+<div class="storitev">
+<h3>Zunanje pranje</h3>
+<p>Temeljito pranje karoserije, stekel in platišč.</p>
+</div>
+
+<div class="storitev">
+<h3>Notranje čiščenje</h3>
+<p>Sesanje in čiščenje notranjosti vozila.</p>
+</div>
+
+<div class="storitev">
+<h3>Globinsko čiščenje</h3>
+<p>Profesionalno čiščenje sedežev in tekstila.</p>
+</div>
+
+<div class="storitev">
+<h3>Poliranje</h3>
+<p>Povrnemo sijaj in zaščito laku.</p>
+</div>
+
+</div>
+
+<h2>Galerija</h2>
+
+<div class="galerija">
+
+
+<img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800">
+
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800">
+
+<img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800">
+
+</div>
+
+<h2>Kje nas najdete</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=Podgorje%2083%201241%20Kamnik&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+<h2>Naročilo termina</h2>
+
+<form>
+
+<input type="text" placeholder="Ime in priimek">
+
+<input type="tel" placeholder="Telefon">
+
+<input type="email" placeholder="Email">
+
+<textarea rows="5" placeholder="Sporočilo"></textarea>
+
+<button type="submit">
+Pošlji povpraševanje
+</button>
+
+</form>
+<h2>Cenik</h2>
+
+<table>
+<tr>
+<th>Storitev</th>
+<th>Cena</th>
+</tr>
+
+<tr>
+<td>Zunanje pranje</td>
+<td>20 €</td>
+</tr>
+
+<tr>
+<td>Notranje čiščenje</td>
+<td>15 €</td>
+</tr>
+
+<tr>
+<td>Globinsko čiščenje</td>
+<td>40-60 €</td>
+</tr>
+
+<tr>
+<td>Poliranje</td>
+<td>80-100  €</td>
+</tr>
+</table>
+<h2>Kontakt</h2>
+
+
+<p><strong>Telefon:</strong> 051 777 170</p>
+<p><strong>Naslov:</strong> Podgorje 83, 1241 Kamnik</p>
+<p><strong>Email:</strong> jan00cvirn@gmail.com</p>
+
+<a class="gumb" href="tel:051777170">
+Pokliči zdaj
+</a>
+
+</div>
+
+</body>
+</html>
